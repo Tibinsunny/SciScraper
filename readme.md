@@ -12,7 +12,8 @@ Sci-Scraper
 <sub>
 An efficient extension to view and download IEEE journal paper <br>
  <code> Information is power. But like all power, there are those who want to keep it for themselves. :- Aaron Swartz  </code>
-</sub>  
+</sub> 
+ <a href="https://github.com/Tibinsunny/SciScraper/releases" /> <br>Download SciScraper 
 </p>  
         
 ***
