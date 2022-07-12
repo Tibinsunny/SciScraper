@@ -5,8 +5,8 @@ Sci-Scraper
 </h1>
 <p align="center">
 <img src="https://img.shields.io/badge/status-active-green.svg">
-<img src="https://img.shields.io/github/issues-raw/tibinsunny/SciScraper">
-<img src="https://img.shields.io/github/manifest-json/v/tibinsunny/SciScraper">
+<img src="https://img.shields.io/github/issues/tibinsunny/SciScraper.svg">
+<img src="https://img.shields.io/github/manifest-json/v/tibinsunny/SciScraper.svg">
 </p>
 <p align="center">
 <sub>
