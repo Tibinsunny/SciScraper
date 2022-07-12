@@ -1,0 +1,100 @@
+.container {
+    width: 320px;
+    height:400px;
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 3px solid rgba(228, 126, 98, 0.534);
+}
+.focus-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.extension-power{
+    margin-top: 3px;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+    border-radius: 2em;
+}
+.content-manager{
+    border:2px solid rgba(236, 119, 86, 0.534);
+    height:330px;
+    width: 310px;
+    font-size: 11px;
+    overflow: scroll;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 10px 0;
+  }
+  
+td {
+    padding: 10px 0;
+  }
+.toggle-cover{
+    margin-top: 2px;
+    height: 15px;
+    width: 30px;
+    border:1px solid rgba(236, 119, 86, 0.534);
+    border-radius: 2em;
+
+}
+.toggle-ball{
+    background-color: red;
+    margin-top: 1px;
+    height: 13px;
+    width: 12px;  
+    border-radius: 2em;
+    transition:0.3s;
+}
+.delete-btn,.bug-btn{
+    cursor: pointer;
+    
+}
+.spinner{
+    height: 50px;
+    width: 50px;
+    border: 12px solid rgb(243, 243, 243);
+    border-radius: 3em;
+    border-top: 12px solid rgb(39, 151, 237);
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+100% { transform: rotate(360deg); }
+}
+.bug-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+}
+.bug-title{
+    font-size: 15px;
+}
+.icon-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.email-icon{
+    padding-right:12px;
+  
+}
+.git-icon{
+    padding:2px;
+    padding-left:12px;
+}
+.email-icon:hover{
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}
+.git-icon:hover{
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}
+.splitter{
+    border-right: 2px solid green;
+}
