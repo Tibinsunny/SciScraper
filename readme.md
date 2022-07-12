@@ -44,7 +44,7 @@ Visit the IEEE paper you want to download(ieeexplore[.]ieee[.]org/ ) and press t
 
 <img src="https://github.com/bestreddit/bestreddit-asset/blob/main/Capture_new.png">
           
-Refer : ![https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) or ![https://www.youtube.com/watch?v=oswjtLwCUqg](https://www.youtube.com/watch?v=oswjtLwCUqg)
+Refer :    ![https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/) <br> ![https://www.youtube.com/watch?v=oswjtLwCUqg](https://www.youtube.com/watch?v=oswjtLwCUqg)
 
 ### Disclaimer
 The copyright status of downloaded articles is the user's responsibility and not that of the developers of this project 
