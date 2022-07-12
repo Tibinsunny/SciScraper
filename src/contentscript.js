@@ -1,5 +1,5 @@
 const changeUi = async () => { 
- let webUri =chrome.runtime.getURL("./imgs/loader.gif")
+ let webUri =chrome.runtime.getURL("../imgs/loader.gif")
 let innerDocument = document.querySelector("#LayoutWrapper > div > div > div > div.ng2-app > div > xpl-root > div > xpl-document-details > div > div.document-main.global-content-width-w-rr > div > div.document-main-content-container > section > div.document-main-left-trail-content")
 let DOIFormater = document.querySelector("#LayoutWrapper > div > div > div > div.ng2-app > div > xpl-root > div > xpl-document-details > div > div.document-main.global-content-width-w-rr > div > div.document-main-content-container > section > div.document-main-left-trail-content > div > xpl-document-abstract > section > div.abstract-desktop-div.hide-mobile.text-base-md-lh > div.row.u-pt-1 > div:nth-child(2) > div.u-pb-1.stats-document-abstract-doi > a").href;
 innerDocument.innerHTML = `<center><img src=${webUri} height="60px" width="60px"></center`
@@ -69,7 +69,7 @@ const checkStatus = () => {
     })
     
 }
-let webUri =chrome.runtime.getURL("./imgs/icons8-download-50.png")
+let webUri =chrome.runtime.getURL("../imgs/icons8-download-50.png")
 chrome.storage.local.get(['extension-status','collector-status'], function (data) {
     if(data['extension-status'])
     {

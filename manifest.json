@@ -11,7 +11,7 @@
     "content_scripts":[
         {
             "matches": ["https://ieeexplore.ieee.org/*"],
-          "js": ["contentscript.js"]
+          "js": ["./src/contentscript.js"]
         }
       ],
       "icons": {
@@ -25,6 +25,6 @@
         "https://enigmatic-lowlands-31426.herokuapp.com/*"
       ],
       "action": {
-        "default_popup": "popup.html"
+        "default_popup": "./src/popup.html"
       }
   }
