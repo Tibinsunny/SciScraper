@@ -1,30 +1,28 @@
 {
-    "name": "Sci-Scraper",
-    "description": "An Extension to view IEEE papers",
-    "version": "1.0",
-    "manifest_version": 3,
-    "web_accessible_resources": [{
+  "name": "Sci-Scraper",
+  "description": "An Extension to view IEEE papers",
+  "version": "2.0",
+  "manifest_version": 3,
+  "web_accessible_resources": [
+    {
       "resources": ["/imgs/*"],
       "matches": ["https://ieeexplore.ieee.org/*"]
-    }],
-    
-    "content_scripts":[
-        {
-            "matches": ["https://ieeexplore.ieee.org/*"],
-          "js": ["./src/contentscript.js"]
-        }
-      ],
-      "icons": {
-        "16": "./icons/book_128.png",
-        "32": "./icons/book_128.png",
-        "48": "./icons/book_128.png",
-        "128":"./icons/book_128.png"
-      },
-      "permissions": [
-        "storage",
-        "https://enigmatic-lowlands-31426.herokuapp.com/*"
-      ],
-      "action": {
-        "default_popup": "./src/popup.html"
-      }
+    }
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ieeexplore.ieee.org/*"],
+      "js": ["./src/contentscript.js"]
+    }
+  ],
+  "icons": {
+    "16": "./icons/book_128.png",
+    "32": "./icons/book_128.png",
+    "48": "./icons/book_128.png",
+    "128": "./icons/book_128.png"
   }
+}
